@@ -1,0 +1,66 @@
+.Restaurant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20rem;
+    height: auto;
+    background-color: #eadcbc;
+    padding: 3rem;
+    border-radius: 6rem;
+    text-align: center;
+}
+
+.Restaurant h1, h2, h4 {
+    margin: 0rem;
+}
+
+.Restaurant img {
+    border-radius: 1rem;
+}
+
+a {
+    background-color: brown;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    filter: brightness(150%);
+    box-shadow: 5px 5px 20px black;
+}
+
+.info {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Restaurant {
+        width: 7rem;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .Restaurant h1 {
+        font-size: 0.8rem;
+    }
+
+    .Restaurant h2 {
+        font-size: 0.7rem;
+    }
+
+    .Restaurant h4 {
+        font-size: 0.5rem;
+    }
+
+    a {
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+    }
+}
