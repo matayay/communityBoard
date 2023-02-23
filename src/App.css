@@ -1,39 +1,39 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-  gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    gap: 4rem;
 }
 
 .Title h1 {
-  font-size: 3rem;
-  color: white;
-  background-color: brown;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-radius: 2rem;
+    font-size: 3rem;
+    color: white;
+    background-color: brown;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 2rem;
 }
 
 .Grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {
-  .Title h1 {
-      font-size: 1rem;
-      color: white;
-      background-color: brown;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      border-radius: 1rem;
-  }
+    .Title h1 {
+        font-size: 1rem;
+        color: white;
+        background-color: brown;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+    }
 }
