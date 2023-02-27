@@ -28,6 +28,9 @@ GIF created with Kap
 
 Project created with react.js
 
+Could not generate website with Github Pages or Vercel with the original repository for unknown reasons.
+Created this new repository and copied over code to fix it. 
+
 ## License
 
     Copyright [2023] [Matayay Karuna]
